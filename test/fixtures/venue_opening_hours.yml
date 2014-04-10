@@ -1,0 +1,49 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  venue_id: 1
+  starttime_1: 2014-04-07 19:01:42
+  endtime_1: 2014-04-07 19:01:42
+  closed_1: false
+  starttime_2: 2014-04-07 19:01:42
+  endtime_1: 2014-04-07 19:01:42
+  closed_2: false
+  starttime_3: 2014-04-07 19:01:42
+  endtime_3: 2014-04-07 19:01:42
+  closed_3: false
+  starttime_4: 2014-04-07 19:01:42
+  endtime_4: 2014-04-07 19:01:42
+  closed_4: false
+  starttime_5: 2014-04-07 19:01:42
+  endtime_5: 2014-04-07 19:01:42
+  closed_5: false
+  starttime_6: 2014-04-07 19:01:42
+  endtime_6: 2014-04-07 19:01:42
+  closed_6: false
+  starttime_0: 2014-04-07 19:01:42
+  endtime_0: 2014-04-07 19:01:42
+  closed_0: false
+
+two:
+  venue_id: 1
+  starttime_1: 2014-04-07 19:01:42
+  endtime_1: 2014-04-07 19:01:42
+  closed_1: false
+  starttime_2: 2014-04-07 19:01:42
+  endtime_1: 2014-04-07 19:01:42
+  closed_2: false
+  starttime_3: 2014-04-07 19:01:42
+  endtime_3: 2014-04-07 19:01:42
+  closed_3: false
+  starttime_4: 2014-04-07 19:01:42
+  endtime_4: 2014-04-07 19:01:42
+  closed_4: false
+  starttime_5: 2014-04-07 19:01:42
+  endtime_5: 2014-04-07 19:01:42
+  closed_5: false
+  starttime_6: 2014-04-07 19:01:42
+  endtime_6: 2014-04-07 19:01:42
+  closed_6: false
+  starttime_0: 2014-04-07 19:01:42
+  endtime_0: 2014-04-07 19:01:42
+  closed_0: false

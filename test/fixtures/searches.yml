@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  city: MyString
+  country: MyString
+  latitude: MyString
+  longitude: MyString
+  period: MyString
+  startDate: 2014-04-08
+  endDate: 2014-04-08
+  startTime: 2014-04-08 15:57:40
+  endTime: 2014-04-08 15:57:40
+
+two:
+  city: MyString
+  country: MyString
+  latitude: MyString
+  longitude: MyString
+  period: MyString
+  startDate: 2014-04-08
+  endDate: 2014-04-08
+  startTime: 2014-04-08 15:57:40
+  endTime: 2014-04-08 15:57:40

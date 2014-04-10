@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  workspace_id: 1
+  hourly_price: 1.5
+  hourly_price_active: false
+  half_day_price: 1.5
+  half_day_price_active: false
+  day_price: 1.5
+  day_price_Active: false
+  monthly_price: 1.5
+  monthly_price_active: false
+
+two:
+  workspace_id: 1
+  hourly_price: 1.5
+  hourly_price_active: false
+  half_day_price: 1.5
+  half_day_price_active: false
+  day_price: 1.5
+  day_price_Active: false
+  monthly_price: 1.5
+  monthly_price_active: false

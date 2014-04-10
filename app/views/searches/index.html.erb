@@ -1,0 +1,106 @@
+<div class="row" style="margin-top:25px;">
+  <div class="large-4 push-2 columns">
+    <input type="text" placeholder="Location">
+  </div>
+  <div class="large-2 push-2 columns">
+    <select>
+      <option value="husker">Start</option>
+      <option value="starbuck">Starbuck</option>
+      <option value="hotdog">Hot Dog</option>
+      <option value="apollo">Apollo</option>
+    </select>
+  </div>
+  <div class="large-2 push-2 columns">
+    <select>
+      <option value="husker">End</option>
+      <option value="starbuck">Starbuck</option>
+      <option value="hotdog">Hot Dog</option>
+      <option value="apollo">Apollo</option>
+    </select>
+  </div>
+  <hr>
+</div>
+  
+<div class="row" ng-controller='ResultsCtrl'>    
+  
+  <!-- Main Content Section -->
+  <!-- This has been source ordered to come first in the markup (and on small devices) but to be to the right of the nav on larger screens -->
+  <div class="large-9 push-3 columns">
+    <ul class="search-list">
+      <li class="row list-item" ng-repeat="item in searchitems"> 
+        <div class="small-4 columns list-image">
+          <img src="/images/{{item.main_photo}}" alt="" />
+        </div> 
+        <div class="small-8 columns">
+          <div class="row">
+            <div class="small-8 columns">
+              <h5 class="list-item-title"><a href="/#/temp" class="inverse">{{item.name}}</a></h5>
+              <h6 class="subheader">{{item.venue.city}}, {{item.venue.country.name}}</h6>
+              <div style="font-size: 90%;">
+              <span rel="tooltip" data-toggle="tooltip" data-placement="bottom" title="Distance from city center" class="fa fa-dot-circle-o"> 1.8 km</span> <span rel="tooltip" data-toggle="tooltip" data-placement="bottom" title="Distance from nearest subway" class="fa fa-truck"> 3.1 km</span> <span rel="tooltip" data-toggle="tooltip" data-placement="bottom" title="Distance from nearest airport" class="fa fa-plane"> 4.3 km</span><br>
+              <span class="fa fa-user"> max. 2</span>
+              </div>
+            </div>
+            <div class="small-4 columns">
+              {{100 | currency}}
+            </div>
+          </div>
+          <div class="row">
+            <tabset>
+              <tab class="small-2 columns search-info-tabs">
+                <tab-heading class="text-center">
+                  <i class="fa fa-info"></i>
+                </tab-heading>
+                {{item.description}}
+              </tab>
+              <tab class="small-2 columns search-info-tabs">
+                <tab-heading>
+                  <i class="fa fa-map-marker"></i>
+                </tab-heading>
+                Location
+              </tab>
+              <tab class="small-2 columns search-info-tabs">
+                <tab-heading>
+                  <i class="fa fa-table"></i>
+                </tab-heading>
+                Price Table
+              </tab>
+              <tab class="small-2 columns search-info-tabs">
+                <tab-heading>
+                  <i class="fa fa-paperclip"></i>
+                </tab-heading>
+                Misc
+              </tab>
+              <tab class="small-4 columns search-info-tabs search-reserve" heading="Reserve">Reserve</tab>
+            </tabset>
+          </div>
+        </div>
+      </li>
+    </ul>
+          
+  </div>
+  
+  
+  <!-- Nav Sidebar -->
+  <!-- This is source ordered to be pulled to the left on larger screens -->
+  <div class="large-3 pull-9 columns" style="padding-top: 10px;">      
+    <p class="panel text-center">{{searchitems.length}} Results Found</p>
+    <p><img src="http://placehold.it/320x340&text=Google Maps" /></p>
+    <p><img src="http://placehold.it/320x150&text=Workspace Types" /></p>
+    <p><img src="http://placehold.it/320x100&text=Price Slider" /></p>
+    <p><img src="http://placehold.it/320x100&text=Evaluations" /></p>
+    <p><img src="http://placehold.it/320x100&text=Distance Slider" /></p>
+    <p><img src="http://placehold.it/320x200&text=Amenities" /></p>
+  </div>
+  
+</div>
+  
+
+<!-- Footer -->
+
+<footer class="row">
+  <div class="large-12 columns">
+    <hr />
+    <p class="push-9">♥ from the Yeoman team</p>
+  </div> 
+</footer>

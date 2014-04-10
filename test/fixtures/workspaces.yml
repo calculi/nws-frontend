@@ -1,0 +1,23 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  venue_id: 1
+  name: MyString
+  description: MyText
+  workspace_type_id: 1
+  max_capacity: 1
+  amenity_id: 1
+  multiple_workspace: false
+  charged_by_person_count: false
+  workspace_status_id: 1
+
+two:
+  venue_id: 1
+  name: MyString
+  description: MyText
+  workspace_type_id: 1
+  max_capacity: 1
+  amenity_id: 1
+  multiple_workspace: false
+  charged_by_person_count: false
+  workspace_status_id: 1

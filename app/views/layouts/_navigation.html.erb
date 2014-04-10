@@ -1,0 +1,25 @@
+<%# navigation styled for Zurb Foundation 5 %>
+<nav class="top-bar" data-topbar>
+  <ul class="title-area">
+    <li class="name">
+      <h1><a href="#">NextWorkspace</a></h1>
+    </li>
+    <li class="name"><%= link_to 'Home', root_path %></li>
+    <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+  </ul>
+  <section class="top-bar-section">
+    <!-- Right Nav Section -->
+    <ul class="right">
+      <%= render 'layouts/navigation_links' %>
+      <li><a href="#">List your workspace</a></li>
+      <li class="has-dropdown">
+        <a href="#">John Mogamba</a>
+        <ul class="dropdown">
+          <li><a href="#">Settings</a></li>
+          <li><a href="#">Profile</a></li>
+          <li><a href="#">Sign Out</a></li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+</nav>

@@ -1,0 +1,61 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  company: MyString
+  description: MyText
+  country_id: 1
+  postal_code: MyString
+  state: MyString
+  city: MyString
+  street: MyString
+  address_extra: MyString
+  latitude: 1.5
+  longitude: 1.5
+  arrival_info: MyText
+  contact_person: MyString
+  contact_phone: MyString
+  contact_fax: MyString
+  contact_email: MyString
+  url_website: MyString
+  url_twitter: MyString
+  url_googleplus: MyString
+  url_linkedin: MyString
+  currency_id: 1
+  stripe_merchant_id: MyString
+  venue_status_id: 1
+  vat: MyString
+  main_photo: MyString
+  time_zone: MyString
+  venue_type_id: 1
+  cancellation_time_id: 1
+
+two:
+  name: MyString
+  company: MyString
+  description: MyText
+  country_id: 1
+  postal_code: MyString
+  state: MyString
+  city: MyString
+  street: MyString
+  address_extra: MyString
+  latitude: 1.5
+  longitude: 1.5
+  arrival_info: MyText
+  contact_person: MyString
+  contact_phone: MyString
+  contact_fax: MyString
+  contact_email: MyString
+  url_website: MyString
+  url_twitter: MyString
+  url_googleplus: MyString
+  url_linkedin: MyString
+  currency_id: 1
+  stripe_merchant_id: MyString
+  venue_status_id: 1
+  vat: MyString
+  main_photo: MyString
+  time_zone: MyString
+  venue_type_id: 1
+  cancellation_time_id: 1
