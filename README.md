@@ -1,3 +1,3 @@
 # README #
 
-Frontend Application for NextWorkspace, built using Angular JS.
+Full stack Application for NextWorkspace, built using Ruby on Rails and Angular JS.
